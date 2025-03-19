@@ -38,4 +38,6 @@ const isFabioPresent = teachers.includes("Fabio");
 console.log("Fabio è incluso nell'array? " + isFabioPresent)
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.toString();
+
+console.log("Questo è l'array trasformato in stringa: " + teachersString)
